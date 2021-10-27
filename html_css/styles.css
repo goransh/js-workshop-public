@@ -1,0 +1,59 @@
+
+h1,
+h2 {
+    border-bottom: 1px solid black;
+}
+
+p {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main div.language-section {
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.15s ease-in-out;
+}
+
+main div.language-section:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+main div.language-section img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+main div.language-section.html {
+    background: #ffe0ce;
+}
+
+main div.language-section.css {
+    background: #ceebff;
+}
+
+main div.language-section.js {
+    background: #fff9ce;
+}
+
+@media (min-width: 900px) {
+    main {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    main div.language-section {
+        width: 33%;
+        max-width: 350px;
+    }
+}
