@@ -20,3 +20,13 @@
 1. Kall gjerne siden `users.html`. Legg til link i navigasjonsmenyen
 2. Siden skal vise en **punktliste** . Legg til noen personer, f.eks "Patrick Monslaup" og "Gøran Humlestøl". Finn ut hvilke tags som må brukes for å lage en punktliste.
 3. Hva må gjøres for å få punktlisten til å bli en nummerert liste i stedet?
+
+## 4. (Dersom tid) Mer om HTML og CSS
+
+Her er noen eksempler på ting du kan finne ut av:
+
+* Hvordan endre nettsidens tema basert på om brukeren foretrekker dark-mode eller light-mode (hint: [se media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/@media))
+* Animasjoner / keyframes
+* `display: flex` brukes for å lage en-dimensjonale layouts (plassere elemeneter horisontalt eller vertikalt). Finnes det en tilsvarende feature for to-dimensjonale layouts som f.eks et bildegalleri?
+* Finn ut hvordan man kan definere variabler (custom properties) i CSS, f.eks for å gjenbruke de samme fargene på hele siden.
+* Undersøk om siden(e) vi har laget så langt tilfredsstiller kravene for universell utforming / WCAG. [Les mer her](https://www.uutilsynet.no/wcag-standarden/wcag-20-standarden/86)

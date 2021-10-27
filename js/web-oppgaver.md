@@ -12,5 +12,5 @@ Nøyaktig hva som skal skje er opp til deg, men noen muligheter er å...
 ## 2. Lag et skjema for å registrere personer som du så lister ut på nettsiden
 I denne oppgaven skal du legge til `<input>` felt for navn og alder på nettsiden og en knapp for å registrere personen.
 Vi ønsker at listen av registrerte personer vises på nettsiden, så hver gang knappen trykkes bør html oppdateres.
-Oppgaven er enklere å fullføre hvis du gir input feltene en unik id slik at de verdiene enklere kan hentes ut med javascript. Det finnes mange måter å løse dette på, så googling vil kunen gi varierende forslag.
+Oppgaven er enklere å fullføre hvis du gir input feltene en unik id slik at de verdiene enklere kan hentes ut med javascript. Det finnes mange måter å løse dette på, så googling vil kunne gi varierende forslag.
 Hvis du har mye ekstra tid gjerne legg til validering på skjemaet, slik at det ikke er mulig å registrere personer uten navn eller alder.
